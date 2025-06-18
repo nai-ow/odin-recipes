@@ -26,6 +26,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+    margin-bottom: 4px;
 }
 
 .odin img {
@@ -39,13 +40,24 @@
 }
 
 .text {
-    background-color: red;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 0 24px 8px;
     border-radius: 32px;
+}
+
+#lasagna {
+    background-color: red;
+}
+
+#spag {
+    background-color: brown;
+}
+
+#cookie {
+    background-color: brown;
 }
 
 .title {
@@ -80,6 +92,10 @@
 .ingredients ul {
     margin-bottom: 8px;
     list-style-type: none;
+}
+
+.ingredients ul li {
+    margin-bottom: 1px;
 }
 
 .instructions {
