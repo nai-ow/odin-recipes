@@ -13,17 +13,25 @@ ul {
 }
 
 .index {
+    height: calc(100vh - 125px - 8px - 4px);
     display: flex;
     flex-direction: column;
     justify-content: center;
+    transform: translateY(-125px);
     align-items: center;
     border-radius: 16px;
-    margin: 12px auto;
+    margin: 0 auto;
     width: fit-content;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .img {
-    margin: 0 auto 4px;
+    margin: 8px auto 4px;
     padding: 0;
 }
 
